@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from werkzeug import url_decode
-
+from sys import version_info
 
 class Middleware(object):
     """ WSGI Method Overriding Middleware """
@@ -26,7 +26,8 @@ class Middleware(object):
 
         def set_method(method):
             if method in self.allowed_methods:
-                method = method.encode('ascii', 'replace')
+                if version_info[0] < 3:
+                    method = method.encode('ascii', 'replace')
                 environ['REQUEST_METHOD'] = method
             if method in self.bodyless_methods:
                 environ['CONTENT_LENGTH'] = '0'

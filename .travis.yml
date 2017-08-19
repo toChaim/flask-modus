@@ -6,6 +6,7 @@ env:
  - FLASK_VERSION=0.8
  - FLASK_VERSION=0.9
  - FLASK_VERSION=0.10
+ - FLASK_VERSION=0.12
 install:
  - "pip install -r requirements.txt"
  - "pip install -I Flask==$FLASK_VERSION"

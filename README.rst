@@ -1,5 +1,7 @@
 Flask-Modus
 =====================
+This is the same flask_modus as done by Rhys Elsmore with a slight change by Chaim Finkelman to make it compliant with both python 3.6 and 2.7 .
+
 
 .. image:: https://secure.travis-ci.org/rhyselsmore/flask-modus.png?branch=master
 

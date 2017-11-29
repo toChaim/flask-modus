@@ -22,15 +22,15 @@ if sys.argv[-1] == 'publish':
 
 
 setup(
-    name='Flask-Modus',
-    version='0.0.2',
-    url='http://github.com/rhyselsmore/flask-modus',
-    author='Rhys Elsmore',
-    author_email='me@rhys.io',
-    description='Flask Method Overrides.',
+    name='Flask-Modus3',
+    version='0.0.3',
+    url='https://github.com/toChaim/flask-modus3',
+    author='Rhys Elsmore and Chaim Finkelman',
+    author_email='toChaim@gmail.com',
+    description='Flask Method Overrides for python 2.7 and 3.6',
     long_description=open('README.rst').read() + '\n\n' +
         open('HISTORY.rst').read(),
-    py_modules=['flask_modus'],
+    py_modules=['flask_modus3'],
     license=open('LICENSE').read(),
     package_data={'': ['LICENSE']},
     zip_safe=False,

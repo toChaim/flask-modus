@@ -24,7 +24,7 @@ Installation
 
 Installation is very straightforward::
 
-    pip install flask-modus
+    pip install flask-modus3
 
 Configuration
 -------------

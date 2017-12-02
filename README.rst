@@ -1,4 +1,4 @@
-Flask-Modus
+Flask-Modus3
 =====================
 This is the same flask_modus as done by Rhys Elsmore with a slight change by Chaim Finkelman to make it work with both python 3.6 and 2.7 .
 
@@ -32,7 +32,7 @@ Configuration
 Configuration is pretty damn easy::
 
     from flask import Flask
-    from flask_modus import Modus
+    from flask_modus3 import Modus
 
     app = Flask(__name__)
     modus = Modus(app)
@@ -40,7 +40,7 @@ Configuration is pretty damn easy::
 *or*::
 
     from flask import Flask
-    from flask_modus import Modus
+    from flask_modus3 import Modus
 
     app = Flask(__name__)
     modus = Modus()

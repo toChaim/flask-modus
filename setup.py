@@ -23,7 +23,7 @@ if sys.argv[-1] == 'publish':
 
 setup(
     name='Flask-Modus3',
-    version='0.0.3',
+    version='0.0.4',
     url='https://github.com/toChaim/flask-modus3',
     author='Rhys Elsmore and Chaim Finkelman',
     author_email='toChaim@gmail.com',

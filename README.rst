@@ -3,7 +3,7 @@ Flask-Modus3
 This is the same flask_modus as done by Rhys Elsmore with a slight change by Chaim Finkelman to make it work with both python 3.6 and 2.7 .
 
 
-.. image:: https://secure.travis-ci.org/rhyselsmore/flask-modus.png?branch=master
+.. image:: https://secure.travis-ci.org/toChaim/flask-modus3.png?branch=master
 
 Enable Flask Method overrides via Query String and Headers.
 
